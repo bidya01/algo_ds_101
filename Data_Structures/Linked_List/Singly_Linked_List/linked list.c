@@ -3,6 +3,8 @@
 void create();
 void display();
 void insert_beg();
+void insert_end();
+void insert_at_loc();
 void count_node();
 void delete();
 struct node{
@@ -10,11 +12,6 @@ struct node{
 	struct node *next;
 };
 struct node *start=NULL;
-void create();
-void display();
-void insert_beg();
-void insert_end();
-void insert_at_loc();
 int main()
 {
 	int c;
